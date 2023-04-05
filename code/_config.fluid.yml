@@ -427,6 +427,21 @@ footer:
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <div class="beian">
+      <span>
+        <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        </a>
+      </span>
+      <span>
+        <a href="https://beian.miit.gov.cn/" rel="nofollow noopener" class="beian-police" target="_blank">
+          
+            <span style="visibility: hidden; width: 0">|</span>
+            <img src="/img/police_beian.png" alt="police-icon">
+          
+          <span>粤ICP备15044115号-3</span>
+        </a>
+      </span>
+    </div>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -442,7 +457,7 @@ footer:
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
   beian:
-    enable: true
+    enable: false
     # ICP证号
     icp_text: ""
     # 公安备案号，不填则只显示ICP
