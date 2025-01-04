@@ -27,7 +27,7 @@ services:
     component: fc # 组件名称
     actions:
       pre-deploy:
-        - run: npm install
+        - run: pnpm install
           path: ./code
         - run: npm run build
           path: ./code
@@ -63,7 +63,7 @@ services:
     component: oss
     actions:
       pre-deploy:
-        - run: npm install
+        - run: pnpm install
           path: ./code
         - run: npm run build
           path: ./code
